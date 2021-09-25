@@ -1,0 +1,69 @@
+html, body {
+  font-family: Verdana;
+  background-color: #1F1B24;
+  color: #fff;
+}
+.title-header {
+  overflow: hidden;
+  background-color: #584C68;
+  color: #fff;
+  padding: 24px;
+  text-align: center;
+}
+.boxes {
+  margin: 0 auto;
+  width: 73%;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.child {
+  flex: 0 1 300px;
+  flex: 1 1 300px;
+  text-align: center;
+
+  padding: 8px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 10px;
+  font-weight: normal;
+
+  border-style: solid;
+  border-width: 2px 2px;
+  border-radius: 12px;
+}
+hr {
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
+p {
+  font-size: 14px;
+}
+b.head {
+  font-size: 24px;
+}
+b.par {
+  font-size: 18px;
+}
+.chart {
+  position: relative;
+  height: 40vh;
+  width: 80vw;
+}
+.mobile-msg {
+  display: none;
+}
+@media (max-width: 767px) {
+    .chart {
+      display: none;
+    }
+    .mobile-msg {
+      clear: both;
+      display: block;
+    }
+    .boxes {
+      margin: 0 auto;
+      width: 100%;
+    }
+}
