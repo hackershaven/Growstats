@@ -134,7 +134,7 @@
   <div style="justify-content:center;display:flex;flex-direction:row-reverse;">
     <div class="ui label" style="margin:6px;">
       <i class="github icon"></i>
-      <a href="https://github.com/hackershaven/Growstats" class="detail">View Github Repo</a>
+      <a target="_blank" href="https://github.com/hackershaven/Growstats" class="detail">View Github Repo</a>
     </div>
     <div id="modal-btn" class="ui label" style="margin:6px;">
       <i class="file code outline icon"></i>
